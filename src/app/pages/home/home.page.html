@@ -1,0 +1,96 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+<!--Dashboard do menu inicial-->
+<ion-content>
+  <section text-center margin-bottom>
+    <img class="log" src="/assets/img/login.png">
+    <h1 style="font-size:1.4em" no-margin> Bem vindo, <br>
+      Juan Marinho</h1>
+  </section>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" name="flower"></ion-icon>
+          <h2>Garden Robot</h2>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" name="logo-octocat"></ion-icon>
+          <h2>Anima Tronic</h2>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" ios="ios-map" md="md-map"></ion-icon>
+          <h2>Tracker Robot</h2>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" name="wifi"></ion-icon>
+          <h2>IoT</h2>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" name="camera"></ion-icon>
+          <h2>IA Vision</h2>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" name="home"></ion-icon>
+          <h2>Maquete</h2>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" name="logo-game-controller-b"></ion-icon>
+          <h2>Angah Games</h2>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card class="card" text-center padding color="primary">
+          <ion-icon class="ico" name="car"></ion-icon>
+          <h2>Labirinto Robot</h2>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+<!--fab de opções-->
+
+  <ion-fab bottom right>
+    <button class="fab" ion-fab>
+      <ion-icon class="icon" name="add-circle"></ion-icon>
+    </button>
+    <ion-fab-list side="top">
+      <button ion-fab color="primary">
+       <a routerLink="/dashboard"> <ion-icon class="icon1" name="cart"></ion-icon></a>
+      </button>
+
+      <button ion-fab color="primary">>
+        <a routerLink="/dashboard"><ion-icon class="icon1" name="logo-game-controller-b"></ion-icon></a>
+      </button>
+
+      <button ion-fab color="primary">>
+        <a routerLink="/dashboard"><ion-icon class="icon1" name="trophy"></ion-icon></a>
+      </button>
+
+      <button ion-fab color="primary">>
+        <a routerLink="/perfil"><ion-icon class="icon1" name="contact"></ion-icon></a>
+      </button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>
